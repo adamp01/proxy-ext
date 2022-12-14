@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Stealth Mode",
+  "version": "1.0.0",
+
+  "applications": {
+    "gecko": {
+      "id": "stealth@test.com"
+    }
+  },
+
+  "incognito": "spanning",
+
+  "permissions": ["privacy", "proxy", "storage", "webRequest", "webRequestBlocking", "<all_urls>"],
+
+  "background": {
+    "page": "background/index.html"
+  }
+}
